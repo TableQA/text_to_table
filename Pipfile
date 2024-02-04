@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fairseq = "==v0.10.2"
+sacrebleu = "==v2.0.0"
+bert-score = "==v0.3.11"
+transformers = "==v3.1.0"
+torch = "*"
+numpy = "<1.20.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+python_full_version = "3.8.18"
